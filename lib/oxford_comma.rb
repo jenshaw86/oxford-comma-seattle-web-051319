@@ -5,7 +5,7 @@ def oxford_comma(array)
     list = array.first
   when 2
     list = array.join(" and ")
-  else
+  when array.length >= 3
     item = 0
     until item == array.length - 2
       list.concat("#{array[item]}, ")
