@@ -15,7 +15,3 @@ def oxford_comma(array)
   end
   list
 end
-      
-      
-    
-end
