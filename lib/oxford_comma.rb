@@ -1,9 +1,10 @@
 def oxford_comma(array)
+  list = ""
   case array.length
   when 1
-    array.first
+    list = array.first
   when 2
-    array.join(" and ")
+    list = array.join(" and ")
   when array.length >= 3
     list = ""
     item = 0
@@ -12,6 +13,8 @@ def oxford_comma(array)
       item += 1
     end
     list.concat(" and #{array.last}")
+  end
+  
       
       
     
