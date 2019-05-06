@@ -1,15 +1,13 @@
 def oxford_comma(array)
-  
-  case array.length
-  when 1
+  items = array.length
+  if items == 1
     array.first
-  when 2
+  elsif items == 2
     array.join(" and ")
-  when array.length >= 3
+  elsif items >= 3
     list = ""
     item = 0
     until item == array.length - 2
-      puts array[item]
       list.concat("#{array[item]}, ")
       item += 1
     end
