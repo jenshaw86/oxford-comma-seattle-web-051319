@@ -4,7 +4,7 @@ def oxford_comma(array)
   when 1
     array.first
   when 2
-    list = array.join(" and ")
+    array.join(" and ")
   when array.length >= 3
     list = ""
     item = 0
