@@ -13,5 +13,5 @@ def oxford_comma(array)
     end
     list.concat(" and #{array.last}")
   end
-  list
+  puts list
 end
