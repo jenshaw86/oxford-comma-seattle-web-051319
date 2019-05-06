@@ -6,7 +6,9 @@ def oxford_comma(array)
     array.join(" and ")
   when array.length >= 3
     list = ""
+    item = 0
     
+    list.concat("#{array[item]}, )
       
       
     
