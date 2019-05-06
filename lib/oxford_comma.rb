@@ -2,7 +2,7 @@ def oxford_comma(array)
   
   case array.length
   when 1
-    list = array.first
+    puts array.first
   when 2
     list = array.join(" and ")
   when array.length >= 3
