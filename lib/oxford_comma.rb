@@ -7,7 +7,7 @@ def oxford_comma(array)
   when array.length >= 3
     list = ""
     item = 0
-    
+    until item == array.length - 2
     list.concat("#{array[item]}, ")
     item += 1
       
