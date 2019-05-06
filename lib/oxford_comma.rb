@@ -11,6 +11,6 @@ def oxford_comma(array)
       list.concat("#{array[item_count]}, ")
       item_count += 1
     end
-    list.concat(" and #{array.last}")
+    list.concat("and #{array.last}")
   end
 end
