@@ -6,7 +6,8 @@ def oxford_comma(array)
     array.join(" and ")
   when array.length >= 3
     list = ""
-    until 
+    
+      
       
     
 end
