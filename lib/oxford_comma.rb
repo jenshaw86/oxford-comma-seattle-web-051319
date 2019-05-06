@@ -4,6 +4,9 @@ def oxford_comma(array)
     array.first
   when 2
     array.join(" and ")
-  when 3
+  when array.length >= 3
+    list = ""
+    array.each do |item|
+      
     
 end
