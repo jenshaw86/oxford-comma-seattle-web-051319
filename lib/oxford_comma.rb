@@ -9,6 +9,7 @@ def oxford_comma(array)
     item = 0
     
     list.concat("#{array[item]}, ")
+    item += 1
       
       
     
